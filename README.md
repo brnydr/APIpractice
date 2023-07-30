@@ -1,8 +1,9 @@
-# Webpack Development Template
+# Weather API Practice
 
 #### By _**Brian Yoder**_
 
-#### _A application template using webpack, eslint, babel, jest, and other packages._
+#### _A weather application that gives local weather information_
+#### _using webpack, eslint, babel, and the OpenWeather API_
 
 ## Technologies Used
 
@@ -19,18 +20,19 @@
 
 * Open Terminal/Command line
 * Navigate to the desktop by typing **cd ~/Desktop** and press Enter on the keybord
-* type **git clone https://github.com/brnydr/webpack-template** into the terminal and press Enter on the keyboard
-* Navigate to the top level of the directory by typing **cd webpack-template** and press Enter on the keyboard
+* type **git clone https://github.com/brnydr/APIpractice** into the terminal and press Enter on the keyboard
+* Navigate to the top level of the directory by typing **cd APIpractice** and press Enter on the keyboard
 * type **code .** into the terminal and press Enter on the keyboard
 * Open the terminal in VSCode by pressing **Ctrl + `** on the keyboard
 
 * type **npm install** into the terminal and press Enter on the keyboard
 * type **npm run build** into the terminal and press Enter on the keyboard
+* Create a file named **.env** in the top level of the directory 
+* Create an OpenWeather account and generate an API key by following the instructions [here](https://openweathermap.org/appid)
+* Add the following to the **.env** file:
+  * API_KEY = {your API key}
 * type **npm run start** into the terminal and press Enter on the keyboard
-* Delete all boilerplate content in index.html, index.js, package.json and test files to customize for your project. 
-* Open a web browser and navigate to **localhost:8080**
-* When ready to run tests, type **npm run test** into the terminal and press Enter on the keyboard (no tests exist at installation)
-
+* After the browser opens, enter a city to get local weather information
 
 
 ## Known Bugs
